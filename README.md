@@ -1,7 +1,8 @@
-# _Your project title_
+# _Scala_
 
-- _your name_
-- _your email (uoit.net)_
+- _Syed Daniyal Shah_
+- _syed.shah12@uoit.net_
+- _100622173_
 
 ## About the language
 
