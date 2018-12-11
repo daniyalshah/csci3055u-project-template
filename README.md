@@ -31,9 +31,9 @@ Lets now learn basic syntax!
 
 * **Object**: Objects have states and behaviors.
 * **Class**: A class can be defined as a template/blueprint that describes the behaviors/states that object of its type support.
-      * **Class Name**: For all class names, the first letter should be in Upper Case.
+* **Class Name**: For all class names, the first letter should be in Upper Case.
 * **Methods**: A method is basically a behavior. A class can contain many methods. It is in methods where the logics are written, data is manipulated and all the actions are executed.
-      * **Method Name**: Unlike class names, method names should start with a lower case letter
+* **Method Name**: Unlike class names, method names should start with a lower case letter
 * **Fields**: Each object has its unique set of instant variables, which are called fields. An object's state is created by the values assigned to these fields.
 * **Case Sensitivity**: Scala is case-sensitive, which means identifier how and How would have different meaning in Scala.
 * **File Name**: The program file name should exacctly match the object name, when saving a file, save it using the object name and remember that scala is case sensistive, so be careful! 
