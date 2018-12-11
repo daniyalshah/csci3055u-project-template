@@ -4,9 +4,12 @@
 - _syed.shah12@uoit.net_
 - _100622173_
 
-## About the language
+## Scala Overview
+# What is Scala?
+Scala, short for Scalable Language, is a hybrid functional programming language. It was created by Martin Odersky and it was first released in 2003. Scala Programming language has the ability to grow with the growth in the technicalities of ones program.
+# History of Scala
+Martin Odersky began the initial designing of Scala in the year 2001 at the École Polytechnique Fédérale de Lausanne (EPFL). Before the development of Scala, Odersky has had an experience of working on Sun’s Java compiler, and Generic Java and javac. The language was first released internally in the year 2003. This was accompanied by the first public release of Scala in the beginning of 2004. The language was formally released on the platforms of Java, and .NET in the month of June 2004. With some better features, the 2.0 version of the language was released in March 2006. The developments in the language led towards the formal cessation of the .Net support in the year 2012.
 
-> _Describe the language_
 >
 > - History
 > - Some interesting features
