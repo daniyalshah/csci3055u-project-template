@@ -246,11 +246,14 @@ To use Breeze or to find more information on it, go [here to breez's github page
 # Analysis of the language
 
 
-##Procedure vs Functional
+## Procedure vs Functional in Scala
 In Scala, you have the option to use **Procedure** style syntax, and **Functional** (If you force yourself too). It enables both, but let's go into furthur detail.
 
 ### Procedural programming in Scala
-the defination of procedural programming according to google is: “Procedural programming is a programming paradigm, derived from structured programming, based upon the concept of the procedure call. Procedures, also known as routines, subroutines, or functions (not to be confused with mathematical functions, but similar to those used in functional programming), simply contain a series of computational steps to be carried out.”. Well this defination definatly sounds like coding in Scala! The procedure syntax compiles to a method that returns. Scala enables this, let's see an example.
+The defination of procedural programming according to google is: *“Procedural programming is a programming paradigm, derived from structured programming, based upon the concept of the procedure call. Procedures, also known as routines, subroutines, or functions (not to be confused with mathematical functions, but similar to those used in functional programming), simply contain a series of computational steps to be carried out.”*. 
+
+Well this defination definatly sounds like coding in Scala! The procedure syntax compiles to a method that returns. Scala enables this, let's see an example.
+
 ```scala
 object HelloWorld {
   def main(args: Array[String]) {
@@ -261,6 +264,17 @@ object HelloWorld {
 Look familiar? 
 
 ### Functional programming in Scala
+The defination of Functional programming according to google is: *"Functional programming is a programming paradigm with roots in lambda calculus and function abstraction which treats computation as the evaluation of mathematical functions. It avoids changing state and mutable data which avoids programming side effects while reinforcing stability and predictability."*.
+
+Learning to think and program within the functional paradigm requires a change in the mind-set of the programmer. This is possible in scala, but not without a set of rules that one must follow. A user who goes by *Impredicative* on stack overflow came up with a basic set of rules to enforce functional programming on Scala, they are as follows:
+*(
+* Don't use the var keyword.
+* Don't use the while keyword.
+* Don't use anything in the scala.collection.mutable package.
+* Don't use the asInstanceOf method.
+* Don't use null. If you ever come across null (in someone else's code), immediately wrap it in a more appropriate datatype (usually Option will do nicely).
+)*
+
 
 
 
