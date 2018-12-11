@@ -357,7 +357,7 @@ The dynamic scope rule says the calling environment should be searched for non-l
 * Having Pure Functions in Scala
 * Higher level abstractions **
 
-## Map reduce & Immutability
+### Map reduce & Immutability
 
 ```scala
 val textFile = sc.textFile("hdfs://...")
@@ -376,7 +376,31 @@ Immutable objects are thread safe considering that their content cannot be chang
 
 #### This is one of the reason why immutability is favoured in Scala as opposed to mutable programming constructs.
 
+## Having Pure Functions in Scala
 
+The core of functional programming is pure functions. *In functional programming world, a pure function is one which has no side effects. It is only dependant upon the input parameter and does not mutate state elsewhere.* 
+
+A function is considered not pure if it does one or more of the following:
+
+* Variable mutation in current function/class or in some other class
+* Printing to console of anywhere else
+* Saving data to a database
+
+In functional languages there are monads to handle I/O aswell, which Scala can do. Pure functions can be incredibly helpful in Scala, as they reduce cognitive load on code, and how no thread safety required since no mutability is involved, also pure functions don't depend on any external resource, they are always encapsulated. 
+
+An example of a pure function could be the following:
+
+```scala
+val init = 10
+
+  val x = math.sin(init)
+
+  println(x)
+  //init does not change
+  println(init)
+  ```
+  In scala, there is only call by value & call by name making this pure.
+  
 
 
 > _Organize your report according to the project description
