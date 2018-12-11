@@ -202,19 +202,20 @@ If you like it simple and have an IDE like Intellij, you just need to install a 
 
 ## About the standard library
 
-The base scala collection library contains alot of usefull core type functions & data structures such as:
-* Int
-* Float
-* Array
-* Option
-* Hash
-* Strings
-* Sets
-* XML
-* TreeMap
+### The base scala collection library
+contains alot of usefull core type functions & data structures such as:
+
+* **Array: function
+* **Strings: functions
+* **Sets: functions
+* **Vector: data structure
+* **TreeMap: data structure
+* **HashMap: data structure
+
 These are all available in scala standard library without explicitly importing specific libraries. Although Scala packages can be imported so that they can be referenced in the current compilation scope.
 
-For exmaple, let's import the contents of the scala.xml package:
+### For example, 
+let's import the contents of the scala.xml package:
 ```
 import scala.xml._
 ```
