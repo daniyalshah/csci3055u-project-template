@@ -309,6 +309,14 @@ defn match {
     abort("@Memoize must annotate an function.")
 }
 ```
+A simple example of a higher-order meta function is the compose function, which takes two functions, f and g, as input and returns the result of composing f with g:
+
+```scala
+def compose(f: Int=>Int, g: Int=>Int): Int=>Int = {
+   def r(x: Int): Int = f(g(x));
+   r _
+}
+```
 ## Symbol Resolution & Closures in Scala
 
 ### Symbol Resolution in Scala
@@ -335,6 +343,10 @@ muliplier(1) value = 3
 muliplier(2) value = 6
 ```
 This is an example of a closure function because it references factor and reads its current value each time. If a function has no external references, then it is trivially closed over itself. No external context is required.
+
+##Lexical vs Dynamic Scoping in Scala
+
+The dynamic scope rule says the calling environment should be searched for non-locals, using dynamic scoping in Scala is a bad idea since programmers will have no control over how their functions will be called. Scala uses lexical or otherwise known as static scoping. 
 
 
 > _Organize your report according to the project description
