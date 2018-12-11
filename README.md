@@ -414,7 +414,7 @@ object Runnable extends App {
 ```
 The runtime can take this piece of code and perform lot of optimizations on it when compared to a for loop and the that’s the power of higher level constructs. Therefore, high level functions can take other functions as their parameters.
 
-Other functional programming constructs can be Dependency Injection, Extensible language, Pattern Matching, Mutations and Composing functions. More information on functional programming constructs can be found [here](http://allaboutscala.com/tutorials/scala-introduction/scala-functional-programming-features/)
+Other functional programming constructs can be Dependency Injection, Lambda Calculas, Extensible language, Pattern Matching, Mutations and Composing functions. More information on functional programming constructs can be found [here](http://allaboutscala.com/tutorials/scala-introduction/scala-functional-programming-features/)
 
 ## Static vs Dynamic types in Scala
 
