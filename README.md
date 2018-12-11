@@ -43,6 +43,9 @@ Lets now learn basic syntax!
 * **File Name**: The program file name should exacctly match the object name, when saving a file, save it using the object name and remember that scala is case sensistive, so be careful! 
 * **Processing of main()**: a main() method is required in every scala program because just like java, the processing starts there.
 
+### Data types:
+If you're not familiar with Java data types, you can find them a whole list [here](https://confluence.atlassian.com/bitbucketserver/markdown-syntax-guide-776639995.html)
+
 ### Lets learn with code!
 
 #### Comments & Simple Hello World Printer 
@@ -60,6 +63,14 @@ object HelloWorld {
      println("Hello, world!") 
     } 
 }
+```
+#### Newline Characters:
+Scala is a line-oriented language where statements may be terminated by semicolons (;) or newlines.
+```scala
+val s = "hello"; println(s)
+//this is the same as
+val s = "hello"
+println(s)
 ```
 
 
