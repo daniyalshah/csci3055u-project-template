@@ -368,13 +368,13 @@ counts.saveAsTextFile("hdfs://...")
 ```
 **The following code performs a word count. counting how many times each word has occurred in a given dataset. 
 
-* The output of the ```scala flatMap ``` would be individual words it,is,a,simple ….
-* ```scala map``` then takes the individual words then maps them into a key value pair (it,1),(is,1),(a,1) ….
-* ```scala reduceByKey ``` does what it is named after. It takes the words for example (it,1) and the next (it,1) and then combines them into (it,2).
+* The output of the ```flatMap ``` would be individual words it,is,a,simple ….
+* ``` map``` then takes the individual words then maps them into a key value pair (it,1),(is,1),(a,1) ….
+* ```reduceByKey ``` does what it is named after. It takes the words for example (it,1) and the next (it,1) and then combines them into (it,2).
 
 Immutable objects are thread safe considering that their content cannot be changed. Thread safety is directly related to parallelism and multi-core/multi-machine performance/scalability. If there are too many locks then they slow down the entire operation and if there are no locks then it will lead to wrong results. In scala immutability implies thread safety. Case classes are classic examples of immutable objects/classes in scala. 
 
-** This is one of the reason why immutability is favoured in Scala as opposed to mutable programming constructs.
+#### This is one of the reason why immutability is favoured in Scala as opposed to mutable programming constructs.
 
 
 
