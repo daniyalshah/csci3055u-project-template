@@ -428,8 +428,5 @@ Other functional programming constructs can be Dependency Injection, Extensible 
 
 Scala is static type system, every value, parameter, and method has a type associated with it known at compile time. Also, without running the program, the compiler can tell if your program is correct based on the types that flow through it. This handles logical user mistakes like entering a string instead of a required int. Scalas type inference is very powerful and very convenient. Users can depend on the compiler to help us during development. Firstly, we don’t need to annotate everything. If the type of some domain concept changes, that new type will propagate to all of the areas where its type is left to be inferred. The compiler will automatically infer that new type without us having to change any annotations. Secondly, if we happen to miss any spots or leave the code in an illogical state, the code wouldn’t compile, preventing any surprising runtime errors.
 
-
-> _Organize your report according to the project description
-document_.
-
+## Pros and Cons of Scala
 
