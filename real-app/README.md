@@ -1,2 +1,1 @@
-This folder contains the code of a reasonably real application 
-implemented in the language.
+## Implementing a Scala program which demenstrates file i/o in data managment.
