@@ -224,12 +224,39 @@ You can import more than one class or object from a single package, for example,
 ```scala
 import scala.collection.immutable.{TreeMap, TreeSet}
 ```
+### Real World Example 
+In this example, it takes contents from a txt file, and quick sorts them! by importing 
+```scala
+scala.util.Sorting
+```
+:
 
+```scala
+import scala.util.Sorting
+object Sorting {
+  
+  def main(args: Array[String]) {
+    println( solution )
+  }
+  
+  def solution =
+  {
+    val lines = io.Source.fromFile(dataPath).getLines() toArray
+    val values = (lines(0) split ",") map ( s => s.substring(1,s.length-1) )
+    Sorting.quickSort(values)
+    def nameToValue( s:String ) = { s map (_.toInt - 'A' + 1) reduceLeft(_+_) }
+    (values map ( nameToValue(_) ) zipWithIndex)
+       .map( i => ((i._2+1) * i._1).toLong )
+       .reduceLeft( _+_ )
+  }
+  val dataPath = "/home/testingforScala/textfileexample.txt"
+} 
+```
 ## About open source library
 
 ### Breeze
 
-A community based library for Scala with over 3400 commits and almost 100 contributors. Breeze focuses on data science. This library takes ideas from MATHLAB's data structure and the NumPy Classes for Python. Breeze works fast and efficiently with manipulations data arrays, and includes many other useful operations such as:
+A community based library for Scala with over 3400 commits and almost 100 contributors. Breeze focuses on data science (just like you Dr Pu). This library takes ideas from MATHLAB's data structure and the NumPy Classes for Python. Breeze works fast and efficiently with manipulations data arrays, and includes many other useful operations such as:
 
 * **Matrix and vector operations**: for creating, transposing, filling with numbers, conducting element-wise operations, inversion, calculating determinants, and much more other options to meet almost every need.
 
