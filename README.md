@@ -225,11 +225,7 @@ You can import more than one class or object from a single package, for example,
 import scala.collection.immutable.{TreeMap, TreeSet}
 ```
 ### Real World Example 
-In this example, it takes contents from a txt file, and quick sorts them! by importing 
-```scala
-scala.util.Sorting
-```
-:
+In this example, it takes contents from a txt file, and quick sorts them! by importing ```scala.util.Sorting```
 
 ```scala
 import scala.util.Sorting
