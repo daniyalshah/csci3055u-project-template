@@ -287,9 +287,9 @@ can be replaced with
 ```scala
 foo map ( _ + 2 )
 ```
-## Meta-Programming such as Macros in Scala
+## Meta-Programming in Scala
 *Metaprogramming is a programming technique in which computer programs have the ability to treat programs as their data.*
-This is **not** available in Scala yet, However, this can be used in **Scala** by using tools such as [Scalameta](https://scalameta.org/) & [Macro paradise plugin](https://docs.scala-lang.org/overviews/macros/paradise.html).
+This is available in Scala after update 2.10 but couldn't find much information on it, However, you can use tools such as [Scalameta](https://scalameta.org/) & [Macro paradise plugin](https://docs.scala-lang.org/overviews/macros/paradise.html).
 
 Scalameta is a metaprogramming toolkit for Scala that allows you to parse string literals as language AST and operate with it properly. **This means that we can compose some strings and then interpolate it in real programs.** 
 Macro paradise is a plugin that is making latest macro developments available in a plugin format.
@@ -309,8 +309,32 @@ defn match {
     abort("@Memoize must annotate an function.")
 }
 ```
+## Symbol Resolution & Closures in Scala
 
+### Symbol Resolution in Scala
 
+Scala has support for symbol resolution, Symbol resolution runs the entire spectrum, from simple and intuitive to complex and perplexing. Most resolutions are carried out silently by the link-editor. However, some relocations can be accompanied by warning diagnostics, while others can result in a fatal error condition. The resolution of two symbols depends on their attributes, the type of file that provides the symbol, and the type of file being generated. 
+
+### Closure in Scala
+
+Scala has support for Closure. A closure is a function, whose return value depends on the value of one or more variables declared outside this function. An example of code can be
+
+```scala
+object Test { 
+   def main(args: Array[String]) {
+      println( "muliplier(1) value = " + multiplier(1) ) 
+      println( "muliplier(2) value = " + multiplier(2) ) 
+   }
+   var factor = 3 
+   val multiplier = (i:Int) => i * factor 
+   }
+```
+This outputs 
+```scala
+muliplier(1) value = 3 
+muliplier(2) value = 6
+```
+This is an example of a closure function because it references factor and reads its current value each time. If a function has no external references, then it is trivially closed over itself. No external context is required.
 
 
 > _Organize your report according to the project description
