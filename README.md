@@ -40,6 +40,8 @@ Lets now learn basic syntax!
 * **Processing of main()**: a main() method is required in every scala program because just like java, the processing starts there.
 
 ### Lets learn with code!
+
+#### Comments & Simple Hello World Printer 
 Scala supports single line & multi line comments. This object also prints the world "Hello, world!"
 
 ```scala
