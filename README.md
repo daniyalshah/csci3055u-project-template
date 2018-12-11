@@ -173,9 +173,9 @@ The class name works as a class constructor, which can take a number of paramete
 
 ### Scala Webframes. 
 These are tools being used all around web applications, Some include:
-* The Lift Framework
-* The Play Framework
-* The Bowler Framework 
+* The **Lift** Framework
+* The **Play** Framework
+* The **Bowler** Framework 
 
 All of these are great tools for starting developers looking to expand their knowledge and have a great base to start with. You can get more done in less time. You'll get to build what you want rapidly, without having to spend time building or worrying too much about the infrastructure items listed above.
 
@@ -195,7 +195,8 @@ To check the version of Scala you have, run the prompt
 ```
 C:\>scala -version
 ```
-Boom, you are ready to code in Scala!
+#### Boom, 
+you are ready to code in Scala!
  
 ### Tools for installing Scala with an IDE
 If you like it simple and have an IDE like Intellij, you just need to install a simple plugin called "Scala Plugin" and then start coding in scala!
@@ -205,22 +206,23 @@ If you like it simple and have an IDE like Intellij, you just need to install a 
 ### The base scala collection library
 contains alot of usefull core type functions & data structures such as:
 
-* **Array: function
-* **Strings: functions
-* **Sets: functions
-* **Vector: data structure
-* **TreeMap: data structure
-* **HashMap: data structure
+* **Array:** function
+* **Strings:** functions
+* **Sets:** functions
+* **Vector:** data structure
+* **TreeMap:** data structure
+* **HashMap:** data structure
 
 These are all available in scala standard library without explicitly importing specific libraries. Although Scala packages can be imported so that they can be referenced in the current compilation scope.
 
 ### For example, 
 let's import the contents of the scala.xml package:
-```
+```scala
 import scala.xml._
 ```
 You can import more than one class or object from a single package, for example, TreeMap and TreeSet from the scala.collection.immutable package:
-```
+
+```scala
 import scala.collection.immutable.{TreeMap, TreeSet}
 ```
 
