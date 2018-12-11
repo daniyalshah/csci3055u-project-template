@@ -353,9 +353,9 @@ The dynamic scope rule says the calling environment should be searched for non-l
 
 ### Scala benefits from functional programming constructs such as
 
-* **Map reduce & Immutability 
+* Map reduce & Immutability 
 * Having Pure Functions in Scala
-* Higher level abstractions **
+* Higher level abstractions
 
 ### Map reduce & Immutability
 
