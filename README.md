@@ -349,6 +349,36 @@ This is an example of a closure function because it references factor and reads 
 The dynamic scope rule says the calling environment should be searched for non-locals, using dynamic scoping in Scala is a bad idea since programmers will have no control over how their functions will be called. Scala uses lexical or otherwise known as static scoping. 
 
 
+## Functional Programming constructs in Scala
+
+###Scala benefits from functional programming constructs such as
+
+* **Map reduce & Immutability 
+* Having Pure Functions in Scala
+* Higher level abstractions **
+
+## Map reduce & Immutability
+
+```scala
+val textFile = sc.textFile("hdfs://...")
+val counts = textFile.flatMap(line => line.split(" "))
+                 .map(word => (word, 1))
+                 .reduceByKey(_ + _)
+counts.saveAsTextFile("hdfs://...")
+```
+**The following code performs a word count. counting how many times each word has occurred in a given dataset. 
+
+* The output of the ```scala flatMap ``` would be individual words it,is,a,simple ….
+* ```scala map``` then takes the individual words then maps them into a key value pair (it,1),(is,1),(a,1) ….
+* ```scala reduceByKey ``` does what it is named after. It takes the words for example (it,1) and the next (it,1) and then combines them into (it,2).
+
+Immutable objects are thread safe considering that their content cannot be changed. Thread safety is directly related to parallelism and multi-core/multi-machine performance/scalability. If there are too many locks then they slow down the entire operation and if there are no locks then it will lead to wrong results. In scala immutability implies thread safety. Case classes are classic examples of immutable objects/classes in scala. 
+
+** This is one of the reason why immutability is favoured in Scala as opposed to mutable programming constructs.
+
+
+
+
 > _Organize your report according to the project description
 document_.
 
