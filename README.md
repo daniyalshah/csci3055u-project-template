@@ -1,4 +1,4 @@
-# _Scala_
+# _Scala Programming Language_
 
 - _Syed Daniyal Shah_
 - _syed.shah12@uoit.net_
