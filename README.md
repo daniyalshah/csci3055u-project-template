@@ -187,16 +187,15 @@ C:\>java -version
 ```
 If you're good with the version, download Scala from right [here](http://www.scala-lang.org/downloads). download the latest .jar and put it in C:/> directory. If you're not happy with the version you have, download the latest version from [here](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 After all is set and you've gotten the scala jar file -> run the prompt 
-```
+```scala
 C:\>java -jar scala-0.0.0.0-installer.jar
 ```
 After, an installation wizard would pop up, follow it, select a path, hit confirm.
 To check the version of Scala you have, run the prompt 
-```
+```scala
 C:\>scala -version
 ```
-#### Boom, 
-you are ready to code in Scala!
+#### Boom, you are ready to code in Scala!
  
 ### Tools for installing Scala with an IDE
 If you like it simple and have an IDE like Intellij, you just need to install a simple plugin called "Scala Plugin" and then start coding in scala!
