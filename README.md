@@ -167,6 +167,7 @@ object Test {
 ```
 The class name works as a class constructor, which can take a number of parameters. The above code defines two constructor arguments, xc and yc; they are both visible in the whole body of the class.
 
+### Refer to the Basic Syntax file to learn more about syntax, such as Loops & Arrays!
 #### Now that we have gotten the basic syntax down, let's learn more about the tools.
 
 ## About the tools
