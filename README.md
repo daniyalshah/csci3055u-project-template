@@ -344,7 +344,7 @@ muliplier(2) value = 6
 ```
 This is an example of a closure function because it references factor and reads its current value each time. If a function has no external references, then it is trivially closed over itself. No external context is required.
 
-##Lexical vs Dynamic Scoping in Scala
+## Lexical vs Dynamic Scoping in Scala
 
 The dynamic scope rule says the calling environment should be searched for non-locals, using dynamic scoping in Scala is a bad idea since programmers will have no control over how their functions will be called. Scala uses lexical or otherwise known as static scoping. 
 
