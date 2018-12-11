@@ -366,7 +366,7 @@ val counts = textFile.flatMap(line => line.split(" "))
                  .reduceByKey(_ + _)
 counts.saveAsTextFile("hdfs://...")
 ```
-**The following code performs a word count. counting how many times each word has occurred in a given dataset. 
+#### The following code performs a word count. counting how many times each word has occurred in a given dataset. 
 
 * The output of the ```flatMap ``` would be individual words it,is,a,simple ….
 * ``` map``` then takes the individual words then maps them into a key value pair (it,1),(is,1),(a,1) ….
