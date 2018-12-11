@@ -168,6 +168,28 @@ The class name works as a class constructor, which can take a number of paramete
 
 ## About the tools
 
+####First, let's talk about Scala Webframes. These are tools being used all around web applications, Some include:
+* The Lift Framework
+* The Play Framework
+* The Bowler Framework 
+
+#### Installing Scala
+Scala can be installed on any LINUX or Windows System with one condition, that is to have a Java version of 1.5 or greater, which mostly every computer being used right now does.
+Download Scala from http://www.scala-lang.org/downloads. download the latest .jar and put it in C:/> directory.
+Next, run the prompt 
+```
+C:\>java -jar scala-0.0.0.0-installer.jar
+```
+After, an installation wizard would pop up, follow it, select a path, hit confirm. Boom, you got Scala.
+To check the version of Scala you have, run the prompt 
+```
+C:\>scala -version
+```
+
+
+
+
+
 > _Describe the compiler or interpreter needed_.
 
 ## About the standard library
