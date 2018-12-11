@@ -11,7 +11,7 @@ Scala, short for Scalable Language, is a hybrid functional programming language.
 Martin Odersky began the initial designing of Scala in the year 2001 at the École Polytechnique Fédérale de Lausanne (EPFL). Before the development of Scala, Odersky has had an experience of working on Sun’s Java compiler, and Generic Java and javac. The language was first released internally in the year 2003. This was accompanied by the first public release of Scala in the beginning of 2004. The language was formally released on the platforms of Java, and .NET in the month of June 2004. With some better features, the 2.0 version of the language was released in March 2006. The developments in the language led towards the formal cessation of the .Net support in the year 2012.
 ### Where is Scala used?
 Many existing companies, who depend on Java for business critical applications, are turning to Scala to boost their development productivity, applications scalability and overall reliability. A wide range of companies, such as LinkedIn, Intel, or Twitter are using Scala. Scala language consists of a very robust static system provides farfetched support for functional programming. The language is designed in a manner that makes it concise yet function. 
-### Intresting and Importnant features of Scala 
+### Intresting and Important features of Scala 
 
 * Scala is **object-oriented**:
 Scala is a pure object-oriented language in the sense that every value is an object. Types and behavior of objects are described by classes and traits.Classes are extended by **subclassing** and a flexible **mixin-based composition** mechanism as a clean replacement for multiple inheritance.
@@ -27,6 +27,12 @@ Scala enables you to use all the classes of the Java SDK's
 ## About the syntax
 If you're familiar with Java, Scala should be pretty simple to pick up!
 The biggest syntactic difference between Scala and Java is that the ; line end character is optional.
+Learn now learn basic syntax! 
+
+* **Object** - Objects have states and behaviors.
+* **Class** - A class can be defined as a template/blueprint that describes the behaviors/states that object of its type support.
+* **Methods** - A method is basically a behavior. A class can contain many methods. It is in methods where the logics are written, data is manipulated and all the actions are executed.
+* **Fields** - Each object has its unique set of instant variables, which are called fields. An object's state is created by the values assigned to these fields.
 
 > _give some code snippet of the language_
 
