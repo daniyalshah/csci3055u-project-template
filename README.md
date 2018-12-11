@@ -295,11 +295,16 @@ Scalameta is a metaprogramming toolkit for Scala that allows you to parse string
 Macro paradise is a plugin that is making latest macro developments available in a plugin format.
 
 After following *Arthur Kuska's* [Tutorial](https://medium.com/@Arhelmus/metaprogramming-magic-with-scalameta-67e849ab490e) 
-we can come up with: 
+we can come up with code that might look weird at first, but certainly process language syntax trees as regular strings & uses basic principles of metaprogramming in Scala
+
 ```scala
 defn match {
   case q"def $name(...$paramss): $result = { ..$body }" =>
-    ???
+    val newBody = immutable.Seq(
+      q"println(${"Macro hello"})"
+    ) ++ body
+
+    q"def $name(...$paramss): $result = { ..$newBody }"
   case _ =>
     abort("@Memoize must annotate an function.")
 }
