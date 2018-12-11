@@ -27,12 +27,18 @@ Scala enables you to use all the classes of the Java SDK's
 ## About the syntax
 If you're familiar with Java, Scala should be pretty simple to pick up!
 The biggest syntactic difference between Scala and Java is that the ; line end character is optional.
-Learn now learn basic syntax! 
+Lets now learn basic syntax! 
 
-* **Object** - Objects have states and behaviors.
-* **Class** - A class can be defined as a template/blueprint that describes the behaviors/states that object of its type support.
-* **Methods** - A method is basically a behavior. A class can contain many methods. It is in methods where the logics are written, data is manipulated and all the actions are executed.
-* **Fields** - Each object has its unique set of instant variables, which are called fields. An object's state is created by the values assigned to these fields.
+* **Object**: Objects have states and behaviors.
+* **Class**: A class can be defined as a template/blueprint that describes the behaviors/states that object of its type support.
+* **Class Name**: For all class names, the first letter should be in Upper Case.
+* **Methods**: A method is basically a behavior. A class can contain many methods. It is in methods where the logics are written, data is manipulated and all the actions are executed.
+* **Method Name**: Unlike class names, method names should start with a lower case letter
+* **Fields**: Each object has its unique set of instant variables, which are called fields. An object's state is created by the values assigned to these fields.
+* **Case Sensitivity**: Scala is case-sensitive, which means identifier how and How would have different meaning in Scala.
+* **File Name**: The program file name should exacctly match the object name, when saving a file, save it using the object name and remember that scala is case sensistive, so be careful! 
+* **Processing of main()**: a main() method is required in every scala program because just like java, the processing starts there.
+
 
 > _give some code snippet of the language_
 
