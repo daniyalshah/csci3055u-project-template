@@ -206,8 +206,8 @@ If you like it simple and have an IDE like Intellij, you just need to install a 
 contains alot of usefull core type functions & data structures such as:
 
 * **Array:** function
-* **Strings:** functions
-* **Sets:** functions
+* **Strings:** function
+* **Sets:** function
 * **Vector:** data structure
 * **TreeMap:** data structure
 * **HashMap:** data structure
@@ -227,8 +227,20 @@ import scala.collection.immutable.{TreeMap, TreeSet}
 
 ## About open source library
 
-> _Describe at least one contribution by the open source
-community written in the language._
+###Breeze
+A community based library for Scala with over 3300 commits and almost 90 contributors. Breeze focuses on data science. This library takes ideas from MATHLAB's data structure and the NumPy Classes for Python. Breeze works fast and efficiently with manipulations data arrays, and includes many other useful operations such as:
+
+* **Matrix and vector operations**: for creating, transposing, filling with numbers, conducting element-wise operations, inversion, calculating determinants, and much more other options to meet almost every need.
+
+* **Probability and statistic functions**: that vary from statistical distributions and calculating descriptive statistics (such as mean, variance and standard deviation) to Markov chain models. The primary packages for statistics are:
+```scala
+breeze.stats 
+//&
+breeze.stats.distributions
+```
+
+
+
 
 # Analysis of the language
 
