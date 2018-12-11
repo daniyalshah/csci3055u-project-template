@@ -233,15 +233,15 @@ A community based library for Scala with over 3300 commits and almost 90 contrib
 
 * **Matrix and vector operations**: for creating, transposing, filling with numbers, conducting element-wise operations, inversion, calculating determinants, and much more other options to meet almost every need.
 
-* **Probability and statistic functions**: that vary from statistical distributions and calculating descriptive statistics (such as mean, variance and standard deviation) to Markov chain models. The primary packages for statistics are:
+* **Probability and statistic functions**: From statistical distributions and calculating descriptive statistics (such as mean, variance and standard deviation) to Markov chain models. The primary packages for statistics are:
 ```scala
 breeze.stats 
 //&
 breeze.stats.distributions
 ```
-* **Optimization**: which implies investigation of the function for a local or global minimum. Optimization methods are stored in the ```breeze.optimize``` package. 
-* **Linear algebra**: all basic operations rely on the netlib-java library, making Breeze extremely fast for algebraic computations.
-* **Signal processing operations**: necessary for work with digital signals. The examples of important operations in Breeze are convolution and Fourier transformation, which decomposes the given function into a sum of sine and cosine components.
+* **Optimization**: Implies investigation of the function for a local or global minimum. Optimization methods are stored in the ```breeze.optimize``` package. 
+* **Linear algebra**: All basic operations rely on the netlib-java library, making Breeze extremely fast for algebraic computations.
+* **Signal processing operations**: Necessary for work with digital signals. Operations, which decomposes the given function into a sum of sine and cosine components.
 
 
 
