@@ -48,7 +48,7 @@ If you're not familiar with Java data types, you can find a whole list [here](ht
 
 ### Lets learn with code!
 
-#### Comments & Simple Hello World Printer by Objects
+### Comments & Simple Hello World Printer by Objects
 Scala supports single line & multi line comments. This object also prints the statement "Hello, world!"
 
 ```scala
@@ -64,7 +64,7 @@ object HelloWorld {
     } 
 }
 ```
-#### Newline Characters & Variable Declaration:
+### Newline Characters & Variable Declaration:
 Scala is a line-oriented language where statements may be terminated by semicolons (;) or newlines.
 Here we also declare a variable named "s" as a string & then proceed to print it.
 
@@ -80,7 +80,7 @@ You can see above, we first used "var" to define a varible, and then we used "va
 
 Also to note, **variables** in Scala can have three different scopes depending on the place where they are being used. They can exist as **fields**, as **method parameters** and as **local variables**
 
-#### Scala Operators 
+### Scala Operators 
 
 Different types of operators can also be used in Scala,
 for example:
@@ -121,7 +121,7 @@ You can also include certain relational operators: ==, !=, >, <, >=, <=
 Basically all the ones you have learnt from class!
 Same goes for Logical Operators, Bitwise Operators & Assignment Operators
 
-#### Functions
+### Functions
 functions are group of statements that come together and perform a task! Well, you might be confusing this with **"Methods"**. You can use the terms interchangeably but just remember, A Scala method is a part of a class which has a name, a signature, optionally some annotations, and some bytecode where as a function in Scala is a complete object which can be assigned to a variable.
 
 A Function has the following form:
