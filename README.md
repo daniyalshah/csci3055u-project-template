@@ -197,7 +197,7 @@ C:\>scala -version
 ```
 #### Boom, you are ready to code in Scala!
  
-### Tools for installing Scala with an IDE
+#### Tools for installing Scala with an IDE
 If you like it simple and have an IDE like Intellij, you just need to install a simple plugin called "Scala Plugin" and then start coding in scala!
 
 ## About the standard library
@@ -244,6 +244,25 @@ To use Breeze or to find more information on it, go [here to breez's github page
 
 
 # Analysis of the language
+
+
+##Procedure vs Functional
+In Scala, you have the option to use **Procedure** style syntax, and **Functional** (If you force yourself too). It enables both, but let's go into furthur detail.
+
+### Procedural programming in Scala
+the defination of procedural programming according to google is: “Procedural programming is a programming paradigm, derived from structured programming, based upon the concept of the procedure call. Procedures, also known as routines, subroutines, or functions (not to be confused with mathematical functions, but similar to those used in functional programming), simply contain a series of computational steps to be carried out.”. Well this defination definatly sounds like coding in Scala! The procedure syntax compiles to a method that returns. Scala enables this, let's see an example.
+```scala
+object HelloWorld {
+  def main(args: Array[String]) {
+    println("Hello, world!")
+  }
+}
+```
+Look familiar? 
+
+### Functional programming in Scala
+
+
 
 > _Organize your report according to the project description
 document_.
