@@ -229,7 +229,7 @@ import scala.collection.immutable.{TreeMap, TreeSet}
 
 ### Breeze
 
-A community based library for Scala with over 3300 commits and almost 90 contributors. Breeze focuses on data science. This library takes ideas from MATHLAB's data structure and the NumPy Classes for Python. Breeze works fast and efficiently with manipulations data arrays, and includes many other useful operations such as:
+A community based library for Scala with over 3400 commits and almost 100 contributors. Breeze focuses on data science. This library takes ideas from MATHLAB's data structure and the NumPy Classes for Python. Breeze works fast and efficiently with manipulations data arrays, and includes many other useful operations such as:
 
 * **Matrix and vector operations**: for creating, transposing, filling with numbers, conducting element-wise operations, inversion, calculating determinants, and much more other options to meet almost every need.
 
@@ -243,6 +243,7 @@ breeze.stats.distributions
 * **Linear algebra**: All basic operations rely on the netlib-java library, making Breeze extremely fast for algebraic computations.
 * **Signal processing operations**: Necessary for work with digital signals. Operations, which decomposes the given function into a sum of sine and cosine components.
 
+To use Breeze or to find more information on it, go [here to breez's github page](https://github.com/scalanlp/breeze)
 
 
 # Analysis of the language
