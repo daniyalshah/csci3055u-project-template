@@ -24,6 +24,9 @@ Scala is compiled into Java Byte Code, which is executed by the Java Virtual Mac
 * Scala can execute java code:
 Scala enables you to use all the classes of the Java SDK's
 
+### Why should you use Scala?
+Because it's awesome, easy and simple! You can turn 3 lines of java code into just one with scala
+
 ## About the syntax
 
 If you're familiar with Java, Scala should be pretty simple to pick up!
@@ -168,13 +171,13 @@ The class name works as a class constructor, which can take a number of paramete
 
 ## About the tools
 
-#### First, 
-let's talk about Scala Webframes. These are tools being used all around web applications, Some include:
+#### First, let's talk about Scala Webframes. 
+These are tools being used all around web applications, Some include:
 * The Lift Framework
 * The Play Framework
 * The Bowler Framework 
 
-#### Installing Scala
+#### Tools for Installing Scala Without an IDE
 Scala can be installed on any LINUX or Windows System with one condition, that is to have a Java version of 1.5 or greater, which mostly every computer being used right now does.
 As mentioned before, Scala uses JVM and just to make sure you have version 1.5 above, run the following prompt
 ```
@@ -190,7 +193,7 @@ To check the version of Scala you have, run the prompt
 ```
 C:\>scala -version
 ```
-
+If you like it simple and have an IDE like Intellij, you just need to install a simple plugin and then start coding in scala!
 
 
 
