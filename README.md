@@ -267,17 +267,26 @@ Look familiar?
 The defination of Functional programming according to google is: *"Functional programming is a programming paradigm with roots in lambda calculus and function abstraction which treats computation as the evaluation of mathematical functions. It avoids changing state and mutable data which avoids programming side effects while reinforcing stability and predictability."*.
 
 Learning to think and program within the functional paradigm requires a change in the mind-set of the programmer. This is possible in scala, but not without a set of rules that one must follow. A user who goes by *Impredicative* on stack overflow came up with a basic set of rules to enforce functional programming on Scala, they are as follows:
-*(
-* Don't use the var keyword.
-* Don't use the while keyword.
-* Don't use anything in the scala.collection.mutable package.
-* Don't use the asInstanceOf method.
-* Don't use null. If you ever come across null (in someone else's code), immediately wrap it in a more appropriate datatype (usually Option will do nicely).
-)*
 
+* **Don't** use the var keyword.
+* **Don't** use the while keyword.
+* **Don't** use anything in the scala.collection.mutable package.
+* **Don't** use the asInstanceOf method.
+* **Don't** use null. If you ever come across null (in someone else's code), immediately wrap it in a more appropriate datatype (usually Option will do nicely).
 
+Once you've avoided these things, you can make your code more functional by using ```fold``` when performing direct recursion or when you see destructuring operations on a data structure, consider whether instead you can lift the computation into the structure and avoid destructuring it. 
 
-
+An example,
+```scala
+foo match {
+  case Some(x) => Some(x + 2)
+  case None => None
+}
+```
+can be replaced with 
+```scala
+foo map ( _ + 2 )
+```
 > _Organize your report according to the project description
 document_.
 
