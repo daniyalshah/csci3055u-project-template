@@ -287,6 +287,27 @@ can be replaced with
 ```scala
 foo map ( _ + 2 )
 ```
+## Meta-Programming such as Macros in Scala
+*Metaprogramming is a programming technique in which computer programs have the ability to treat programs as their data.*
+This is **not** available in Scala yet, However, this can be used in **Scala** by using tools such as [Scalameta](https://scalameta.org/) & [Macro paradise plugin](https://docs.scala-lang.org/overviews/macros/paradise.html).
+
+Scalameta is a metaprogramming toolkit for Scala that allows you to parse string literals as language AST and operate with it properly. **This means that we can compose some strings and then interpolate it in real programs.** 
+Macro paradise is a plugin that is making latest macro developments available in a plugin format.
+
+After following *Arthur Kuska's* [Tutorial](https://medium.com/@Arhelmus/metaprogramming-magic-with-scalameta-67e849ab490e) 
+we can come up with: 
+```scala
+defn match {
+  case q"def $name(...$paramss): $result = { ..$body }" =>
+    ???
+  case _ =>
+    abort("@Memoize must annotate an function.")
+}
+```
+
+
+
+
 > _Organize your report according to the project description
 document_.
 
