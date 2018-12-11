@@ -392,9 +392,7 @@ An example of a pure function could be the following:
 
 ```scala
 val init = 10
-
   val x = math.sin(init)
-
   println(x)
   //init does not change
   println(init)
@@ -405,19 +403,13 @@ val init = 10
 
 ```scala
 import scala.collection.mutable.ListBuffer
-
 object Runnable extends App {
-
   val x = List(10,20,30,40)
-
   val mutable = new ListBuffer[Int]
-
   for (e <- x) {
     mutable += (e * 3)
   }
-
   println(mutable.toList)
-
 }
 ```
 The runtime can take this piece of code and perform lot of optimizations on it when compared to a for loop and the that’s the power of higher level constructs. Therefore, high level functions can take other functions as their parameters.
