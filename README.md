@@ -176,6 +176,7 @@ These are tools being used all around web applications, Some include:
 * The Lift Framework
 * The Play Framework
 * The Bowler Framework 
+
 All of these are great tools for starting developers looking to expand their knowledge and have a great base to start with. You can get more done in less time. You'll get to build what you want rapidly, without having to spend time building or worrying too much about the infrastructure items listed above.
 
 ### Tools for Installing Scala Without an IDE
@@ -189,18 +190,15 @@ After all is set and you've gotten the scala jar file -> run the prompt
 ```
 C:\>java -jar scala-0.0.0.0-installer.jar
 ```
-After, an installation wizard would pop up, follow it, select a path, hit confirm. Boom, you got Scala.
+After, an installation wizard would pop up, follow it, select a path, hit confirm.
 To check the version of Scala you have, run the prompt 
 ```
 C:\>scala -version
 ```
+Boom, you are ready to code in Scala!
+ 
 ### Tools for installing Scala with an IDE
 If you like it simple and have an IDE like Intellij, you just need to install a simple plugin called "Scala Plugin" and then start coding in scala!
-
-
-
-
-> _Describe the compiler or interpreter needed_.
 
 ## About the standard library
 
