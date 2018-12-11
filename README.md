@@ -182,7 +182,7 @@ All of these are great tools for starting developers looking to expand their kno
 ### Tools for Installing Scala Without an IDE
 Scala can be installed on any LINUX or Windows System with one condition, that is to have a Java version of 1.5 or greater, which mostly every computer being used right now does.
 As mentioned before, Scala uses JVM and just to make sure you have version 1.5 above, run the following prompt
-```
+```scala
 C:\>java -version
 ```
 If you're good with the version, download Scala from right [here](http://www.scala-lang.org/downloads). download the latest .jar and put it in C:/> directory. If you're not happy with the version you have, download the latest version from [here](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
