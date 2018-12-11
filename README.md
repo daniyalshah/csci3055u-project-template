@@ -21,7 +21,18 @@ Scala is also a functional language in the sense that every function is a value 
 Scala, unlike some of the other statically typed languages, does not expect you to provide redundant type information. Scala doesn't require the user to specify a type in most cases, and the user doesn't have to repeat it.
 * Scala runs on the **JVM**:
 Scala is compiled into Java Byte Code, which is executed by the Java Virtual Machine (JVM). This means that Scala and Java have a common run-time platform. You can easily move from Java to Scala.
+* Scala can execute java code:
+Scala enables you to use all the classes of the Java SDK's
 
+If you're familiar with Java, Scala should be pretty simple to pick up! But some of the features which differ from Java are:
+* All types are objects
+* Type inference
+* Nested Functions 
+* Functions are objects
+* Domain specific language (DSL) support
+* Traits
+* Closures
+* Concurrency support inspired by Erlang. Scala Web
 
 ## About the syntax
 
