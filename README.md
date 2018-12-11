@@ -418,7 +418,9 @@ Other functional programming constructs can be Dependency Injection, Extensible 
 
 ## Static vs Dynamic types in Scala
 
-Scala is static type system, every value, parameter, and method has a type associated with it known at compile time. Also, without running the program, the compiler can tell if your program is correct based on the types that flow through it. This handles logical user mistakes like entering a string instead of a required int. Scalas type inference is very powerful and very convenient. Users can depend on the compiler to help us during development. Firstly, we don’t need to annotate everything. If the type of some domain concept changes, that new type will propagate to all of the areas where its type is left to be inferred. The compiler will automatically infer that new type without us having to change any annotations. Secondly, if we happen to miss any spots or leave the code in an illogical state, the code wouldn’t compile, preventing any surprising runtime errors.
+Scala is static type system, every value, parameter, and method has a type associated with it known at compile time. Also, without running the program, the compiler can tell the user if the program has errors based on the types. This handles logical user mistakes like entering a string instead of a required int. Scala's type inference is very powerful and very convenient. Users can depend on the compiler to help us during development. Scala code does not need to be annotated. If the type of some domain concept changes, that new type will tranfer to all areas where its type is left to be inferred. The compiler will automatically infer that new type without the user having to change any annotations. If the user happens to miss any spots or leave the code in an illogical state, the code wouldn’t compile, preventing any surprising runtime errors. All of this is static type system, in Scala.
+
+
 
 ## Pros and Cons of Scala
 
