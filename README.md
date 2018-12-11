@@ -420,7 +420,28 @@ Other functional programming constructs can be Dependency Injection, Lambda Calc
 
 Scala is static type system, every value, parameter, and method has a type associated with it known at compile time. Also, without running the program, the compiler can tell the user if the program has errors based on the types. This handles logical user mistakes like entering a string instead of a required int. Scala's type inference is very powerful and very convenient. Users can depend on the compiler to help us during development. Scala code does not need to be annotated. If the type of some domain concept changes, that new type will tranfer to all areas where its type is left to be inferred. The compiler will automatically infer that new type without the user having to change any annotations. If the user happens to miss any spots or leave the code in an illogical state, the code wouldn’t compile, preventing any surprising runtime errors. All of this is static type system, in Scala.
 
-
-
 ## Pros and Cons of Scala
+
+### Pros
+* **Easy to understand, Read & Learn**: compared to Java, code in Scala is significantly less in the amount of lines, the reduction of lines of code matter big time when it's a huge program, so this increases productivity and a faster time-to-market!, and it is more closer to english than it is to other languages, making the average human understanding it more, and if you have a background in java, this will be fairly easy to pick up. 
+* **Functional or Procedural Programming in Scala**: Scala encourages functional programming along with procedural, which ever ones type is they can choose to do. Or If you want to learn one another, that Is also easy to do so. Scala programming is also high quality resulting in less bugs while programming.
+* **Improving Ecosystem**: Updates are frequenct, and support from developers is increasing.
+### Cons
+* **Lack in Tools**: Tools and IDE plugins are not as common as Java
+* **Lack in Community made Libraries**: Not as much as java, but rapidly increasing as Scala gets more popular
+* **Limited documentation**: Especially for students who don't understand or read english, not that much information out there on web. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
