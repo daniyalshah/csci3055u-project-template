@@ -137,6 +137,38 @@ object add{
       var sum:Int = 0
       sum = a + b
 ```
+### Classes & Objects
+A class is a blueprint for objects. Once you define a class, you can create objects from the class blueprint with the keyword new. Following is a simple syntax to define a class in Scala:
+
+```scala 
+import java.io._ 
+class Point(val xc: Int, val yc: Int) {
+   var x: Int = xc 
+   var y: Int = yc 
+   def move(dx: Int, dy: Int) { 
+      x = x + dx 
+      y = y + dy 
+      println ("Point x location : " + x); 
+      println ("Point y location : " + y); 
+      } 
+} 
+
+object Test { 
+   def main(args: Array[String]) {
+       val pt = new Point(10, 20); 
+       pt.move(10, 10);
+    }
+}
+
+//When the  above code is compiled it prints "Point x location : 20" & "Point y location : 30"
+```
+The class name works as a class constructor, which can take a number of parameters. The above code defines two constructor arguments, xc and yc; they are both visible in the whole body of the class.
+
+
+
+
+
+
 
 > _give some code snippet of the language_
 
