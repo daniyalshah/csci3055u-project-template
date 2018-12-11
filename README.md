@@ -44,7 +44,7 @@ Lets now learn basic syntax!
 * **Processing of main()**: a main() method is required in every scala program because just like java, the processing starts there.
 
 ### Data types:
-If you're not familiar with Java data types, you can find them a whole list [here](https://confluence.atlassian.com/bitbucketserver/markdown-syntax-guide-776639995.html)
+If you're not familiar with Java data types, you can find a whole list [here](https://confluence.atlassian.com/bitbucketserver/markdown-syntax-guide-776639995.html) 
 
 ### Lets learn with code!
 
