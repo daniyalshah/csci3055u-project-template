@@ -376,7 +376,7 @@ Immutable objects are thread safe considering that their content cannot be chang
 
 #### This is one of the reason why immutability is favoured in Scala as opposed to mutable programming constructs.
 
-## Having Pure Functions in Scala
+### Having Pure Functions in Scala
 
 The core of functional programming is pure functions. *In functional programming world, a pure function is one which has no side effects. It is only dependant upon the input parameter and does not mutate state elsewhere.* 
 
@@ -399,9 +399,28 @@ val init = 10
   //init does not change
   println(init)
   ```
-  In scala, there is only call by value & call by name making this pure.
+  #### In scala, there is only call by value & call by name making this pure.
   
+  ### Higher level abstractions
 
+```scala
+import scala.collection.mutable.ListBuffer
+
+object Runnable extends App {
+
+  val x = List(10,20,30,40)
+
+  val mutable = new ListBuffer[Int]
+
+  for (e <- x) {
+    mutable += (e * 3)
+  }
+
+  println(mutable.toList)
+
+}
+```
+The runtime can take this piece of code and perform lot of optimizations on it when compared to a for loop and the that’s the power of higher level constructs. These functions are treated as first-class citizens, and thus functions can take other functions as their parameters.
 
 > _Organize your report according to the project description
 document_.
