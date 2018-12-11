@@ -25,10 +25,14 @@ Scala is compiled into Java Byte Code, which is executed by the Java Virtual Mac
 Scala enables you to use all the classes of the Java SDK's
 
 ## About the syntax
+
 If you're familiar with Java, Scala should be pretty simple to pick up!
 The biggest syntactic difference between Scala and Java is that the ; line end character is optional.
-Lets now learn basic syntax! 
 
+After installing the Scala jar, in the prompt type in "scala -version" and press enter
+Now you are ready to code!
+
+Lets now learn basic syntax! 
 * **Object**: Objects have states and behaviors.
 * **Class**: A class can be defined as a template/blueprint that describes the behaviors/states that object of its type support.
     * **Class Name**: For all class names, the first letter should be in Upper Case.
