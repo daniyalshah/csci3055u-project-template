@@ -46,10 +46,10 @@ Lets now learn basic syntax!
 ### Data types:
 If you're not familiar with Java data types, you can find a whole list [here](https://confluence.atlassian.com/bitbucketserver/markdown-syntax-guide-776639995.html) 
 
-### Lets learn with code!
+## Lets learn with code!
 
 #### Comments & Simple Hello World Printer 
-Scala supports single line & multi line comments. This object also prints the world "Hello, world!"
+Scala supports single line & multi line comments. This object also prints the statement "Hello, world!"
 
 ```scala
 object HelloWorld { 
@@ -64,13 +64,55 @@ object HelloWorld {
     } 
 }
 ```
-#### Newline Characters:
+#### Newline Characters & Variable Declaration:
 Scala is a line-oriented language where statements may be terminated by semicolons (;) or newlines.
+Here we also declare a variable named "s" as a string & then proceed to print it.
+
 ```scala
-val s = "hello"; println(s)
+var s : String = "hello"; println(s)
 //this is the same as
-val s = "hello"
+val s : String = "hello"
 println(s)
+```
+You can see above, we first used "var" to define a varible, and then we used "val"
+* Var: This means that it is a variable that can change value and this is called mutable variable.
+* Val: This means that it is a variable that can not be changed and this is called immutable variable.
+
+Also to note, **variables** in Scala can have three different scopes depending on the place where they are being used. They can exist as **fields**, as **method parameters** and as **local variables**
+
+#### Scala Operators 
+* "+" = add
+* "-" = subtracts
+* "*" = multiplies
+* "/" = divides
+* "%" = remainder
+
+Let's include these in some code!
+
+```scala
+object Test {
+   def main(args: Array[String]) {
+   var a = 10; 
+   var b = 20; 
+   var c = 25; 
+   var d = 25; 
+   println("a + b = " + (a + b) ); 
+   println("a - b = " + (a - b) ); 
+   println("a * b = " + (a * b) ); 
+   println("b / a = " + (b / a) ); 
+   println("b % a = " + (b % a) ); 
+   println("c % a = " + (c % a) );
+  }
+}
+```
+The following code would ouput
+```scala
+a + b = 30 
+a - b = -10 
+a * b = 200 
+b / a = 2 
+b % a = 0 
+c % a = 5
 ```
 
 
