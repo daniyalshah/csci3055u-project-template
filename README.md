@@ -39,7 +39,23 @@ Lets now learn basic syntax!
 * **File Name**: The program file name should exacctly match the object name, when saving a file, save it using the object name and remember that scala is case sensistive, so be careful! 
 * **Processing of main()**: a main() method is required in every scala program because just like java, the processing starts there.
 
-Scala supports single line & multi line comments.
+### Lets learn with code!
+Scala supports single line & multi line comments. This object also prints the world "Hello, world!"
+
+```scala
+object HelloWorld { 
+   /* First example woo. 
+   * This will print 'Hello World' as the output 
+   * Also a multi line comment. 
+   */ 
+   def main(args: Array[String]) 
+   { // Prints Hello World 
+     // Single line comment. 
+     println("Hello, world!") 
+    } 
+}
+```
+
 
 
 > _give some code snippet of the language_
