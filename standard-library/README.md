@@ -1,5 +1,2 @@
-This folder contains the sample code to illustrate some useful
-functionalities and data structures offered by the standard
-library of the language.
-
-## Using and showing examples of the Standard Library in Scala.
+## Using and showing Binary Tree's, which is a specific data structure in Scala
+* by only using standard libraries
