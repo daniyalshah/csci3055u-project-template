@@ -249,6 +249,11 @@ object Sorting {
   val dataPath = "/home/testingforScala/textfileexample.txt"
 } 
 ```
+## More Examples!
+
+#### Check out the "Real App Folder" where I implement a "Real" Scala program which reads JSON files using the standard libraries
+#### The standard library folder also has another example which shows a specific Data Structure; Binary Search Tree
+
 ## About open source library
 
 ### Breeze
