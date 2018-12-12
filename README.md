@@ -498,7 +498,7 @@ Scala is static type system, every value, parameter, and method has a type assoc
 ### Pros
 * **Easy to understand, Read & Learn**: compared to Java, code in Scala is significantly less in the amount of lines, the reduction of lines of code matter big time when it's a huge program, so this increases productivity and a faster time-to-market!, and it is more closer to english than it is to other languages, making the average human understanding it more, and if you have a background in java, this will be fairly easy to pick up. 
 * **Functional or Procedural Programming in Scala**: Scala encourages functional programming along with procedural, which ever ones type is they can choose to do. Or If you want to learn one another, that Is also easy to do so. Scala programming is also high quality resulting in less bugs while programming.
-* **Improving Ecosystem**: Updates are frequenct, and support from developers is increasing.
+* **Improving Ecosystem**: Updates are very frequent, and support from developers is increasing.
 ### Cons
 * **Lack in Tools**: Tools and IDE plugins are not as common as Java
 * **Lack in Community made Libraries**: Not as much as java, but rapidly increasing as Scala gets more popular
